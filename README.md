@@ -1,23 +1,19 @@
-🎓 UAP-ALL by Tahsin Sheikh 💻
-───────────────────────────────
-📦 GitHub: https://github.com/Tahsin22201243/UAP-ALL  
-📚 Learn • Code • Practice  
+UAP-ALL by Tahsin Sheikh
 
-🚀 A colorful collection of **UAP course materials (1.1→3.1)**  
-including 🧠 Jupyter notebooks, ☕ Java, and ⚙️ C programs.  
-Perfect for students & self-learners to explore, test, and grow!
+UAP-ALL is a complete and organized collection of programming resources 
+covering multiple UAP course versions (1.1 to 3.1). It includes Jupyter 
+Notebooks, Java programs, and C examples designed for hands-on learning 
+and quick understanding of core programming concepts.
 
-✨ Features:
-✔ Interactive notebooks  
-✔ Clean Java/C examples  
-✔ Easy setup → fun learning!
+Features:
+- Clean structure and version-wise folders
+- Ready-to-run notebooks and examples
+- Suitable for students, teachers, and beginners
 
-🔧 Setup:
-`git clone https://github.com/Tahsin22201243/UAP-ALL.git`
-Run `jupyter notebook` & start exploring!
+Setup:
+Clone the repository:
+    git clone https://github.com/Tahsin22201243/UAP-ALL.git
+Open notebooks using Jupyter and start exploring.
 
-🌈 Screenshot / Demo:
-🔗 https://i.imgur.com/hh2m6Go.gif  (example animation)
-
-👨‍💻 Author: Tahsin Sheikh  
-💬 “Code. Learn. Repeat.” 🌟
+Author: Tahsin Sheikh
+GitHub: https://github.com/Tahsin22201243
