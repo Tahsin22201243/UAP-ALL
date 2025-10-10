@@ -1,0 +1,51 @@
+-------Virtual Environment
+A. Pip install virtualenv
+B. Python -m virtualenv  venv
+C. Venv\scripts\activate
+
+-------Django
+A. pip install django
+B. django-admin startproject projectname . 
+(Fullstop . mandatory)
+
+-------Run Server
+python manage.py runserver
+
+-------Start App
+python manage.py startapp appname
+
+-------Path
+Ctrl + c
+
+
+
+Refresh database - 
+python manage.py makemigrations  
+python manage.py migrate 
+
+python manage.py createsuperuser - super User
+pip install django-environ - otp
+pip install pillow - image
+
+
+Using Django Shell to clear the data
+python manage.py shell
+
+Use flush command to reset the database
+python manage.py flush
+
+del db.sqlite3
+then delete the migration folder(inside the app) data without init
+python manage.py makemigrations 
+python manage.py migrate
+
+
+from HireCar.models import YourModel
+
+YourModel.objects.all().delete()
+
+
+
+
+for OTP verify
+https://myaccount.google.com/apppasswords
