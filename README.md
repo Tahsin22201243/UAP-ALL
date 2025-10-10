@@ -1,145 +1,128 @@
-==========================================================
-                   UAP-ALL PROJECT
-==========================================================
+──────────────────────────────────────────────────────────────
+        🎓   U A P -  A L L   |   BY T A H S I N  S H E I K H
+──────────────────────────────────────────────────────────────
+📦 Repository : https://github.com/Tahsin22201243/UAP-ALL
+🧑‍💻 Author     : Tahsin Sheikh
+🪪 License    : MIT License
+🧠 Languages  : Python (Jupyter), Java, C / C++
+📚 Versions   : UAP 1.1 → UAP 3.1
+──────────────────────────────────────────────────────────────
 
-Repository:  https://github.com/Tahsin22201243/UAP-ALL
-Author:      Tahsin Sheikh
-Version:     1.0
-License:     MIT License
-Languages:   Jupyter Notebook, Java, C, C++
-
-==========================================================
 💡 OVERVIEW
-==========================================================
+──────────────────────────────────────────────────────────────
+UAP-ALL is a comprehensive learning hub containing codes,
+assignments, and course materials from multiple UAP versions.
+It includes Jupyter notebooks for experiments, Java examples for
+object-oriented programming, and C/C++ programs for logic design.
+Perfect for students, educators, and self-learners seeking
+a unified collection of UAP resources.
 
-UAP-ALL is a complete collection of course materials, practical codes,
-and assignments for multiple versions of UAP courses (from 1.1 to 3.1).
+──────────────────────────────────────────────────────────────
+📁 CONTENT STRUCTURE
+──────────────────────────────────────────────────────────────
+▸ Jupyter Notebooks   → Interactive lessons & exercises
+▸ Java Source Files   → Object-oriented coding examples
+▸ C / C++ Programs    → Low-level problem solving
+▸ Version Folders     → Organized by UAP version (1.1–3.1)
 
-It includes Jupyter notebooks, Java programs, and C/C++ source codes
-that demonstrate fundamental and advanced programming concepts. 
-This repository is designed to help students, instructors, and
-self-learners easily navigate and run course-related resources.
+Example Layout:
+    UAP-ALL/
+    ├── UAP-1.1/
+    │   ├── notebooks/
+    │   └── java/
+    ├── UAP-1.2/
+    ├── UAP-2.1/
+    ├── UAP-2.2/
+    ├── UAP-3.1/
+    └── readme.txt
 
-==========================================================
-📁 CONTENTS
-==========================================================
-
-1. Jupyter Notebooks - Interactive exercises and demonstrations.
-2. Java Programs      - Object-oriented programming examples.
-3. C / C++ Codes      - Low-level programming and logic practice.
-4. Version History    - Materials organized by UAP version (1.1 to 3.1).
-
-Example Directory Structure:
-----------------------------------------------------------
-UAP-ALL/
-├── UAP-1.1/
-│   ├── notebooks/
-│   └── java/
-├── UAP-1.2/
-├── UAP-2.1/
-├── UAP-2.2/
-├── UAP-3.1/
-└── readme.txt
-----------------------------------------------------------
-
-==========================================================
+──────────────────────────────────────────────────────────────
 ⚙️ REQUIREMENTS
-==========================================================
+──────────────────────────────────────────────────────────────
+• Python 3.8 or newer
+• Jupyter Notebook / JupyterLab
+• Java JDK 8+ installed
+• GCC / G++ compiler for C / C++ codes
 
-To run the resources properly, ensure the following are installed:
+──────────────────────────────────────────────────────────────
+🚀 HOW TO RUN
+──────────────────────────────────────────────────────────────
+① Clone the repository:
+      git clone https://github.com/Tahsin22201243/UAP-ALL.git
+      cd UAP-ALL
 
-- Python 3.8 or above
-- Jupyter Notebook / JupyterLab
-- Java JDK 8 or higher
-- GCC or G++ compiler
+② (Optional) Create virtual environment:
+      python -m venv .venv
+      # Windows → .venv\Scripts\activate
+      # macOS/Linux → source .venv/bin/activate
 
-==========================================================
-🚀 SETUP & USAGE
-==========================================================
+③ Install required Python packages:
+      pip install jupyter numpy pandas matplotlib
 
-Step 1: Clone the repository
-    git clone https://github.com/Tahsin22201243/UAP-ALL.git
-    cd UAP-ALL
+④ Launch notebooks:
+      jupyter notebook
+      or
+      jupyter lab
 
-Step 2: (Optional) Create a Python virtual environment
-    python -m venv .venv
-    For Windows: .venv\Scripts\activate
-    For macOS/Linux: source .venv/bin/activate
+⑤ Run Java / C programs:
+      Java →  javac path/to/File.java
+               java path.to.File
 
-Step 3: Install common Python packages
-    pip install jupyter numpy pandas matplotlib
+      C     →  gcc -o program path/to/example.c
+               ./program
 
-Step 4: Run Jupyter Notebook
-    jupyter notebook
-    OR
-    jupyter lab
-
-Step 5: Run Java or C examples
-    Java Example:
-        javac path/to/Example.java
-        java path.to.Example
-
-    C Example:
-        gcc -o program path/to/example.c
-        ./program
-
-==========================================================
+──────────────────────────────────────────────────────────────
 ✨ FEATURES
-==========================================================
+──────────────────────────────────────────────────────────────
+✔ Organized by course version and topic
+✔ Ready-to-run interactive notebooks
+✔ Clean examples in Java & C
+✔ Beginner-friendly and extendable
+✔ Ideal for quick practice & lab work
 
-- Structured content organized by UAP course versions.
-- Hands-on notebooks for learning key programming concepts.
-- Sample projects in Java and C for real-world understanding.
-- Easy to modify, extend, and contribute.
-
-==========================================================
+──────────────────────────────────────────────────────────────
 💻 CONTRIBUTING
-==========================================================
+──────────────────────────────────────────────────────────────
+Contributions are highly encouraged!  
+Follow the standard Git workflow:
 
-You are welcome to contribute! Follow these simple steps:
+1. Fork the repo
+2. Create a new branch → git checkout -b feature/your-topic
+3. Add your changes and commit → git commit -m "Added new code"
+4. Push branch → git push origin feature/your-topic
+5. Open a Pull Request describing your updates
 
-1. Fork the repository.
-2. Create a new branch:
-       git checkout -b feature/your-topic
-3. Add or modify files.
-4. Commit your changes:
-       git commit -m "Added new notebook or code"
-5. Push your branch and open a Pull Request.
+💡 Contribution Rules:
+   ▸ Clear filenames (e.g., chapter2_sorting.ipynb)
+   ▸ Comment code clearly
+   ▸ Remove large notebook outputs before committing
 
-Contribution Guidelines:
-- Clear filenames (e.g., chapter2_sorting.ipynb)
-- Include comments and short headers in files.
-- Remove notebook output before committing to save space.
-
-==========================================================
-📄 LICENSE
-==========================================================
-
-MIT License
+──────────────────────────────────────────────────────────────
+📜 LICENSE
+──────────────────────────────────────────────────────────────
+MIT License  
 Copyright (c) 2025 Tahsin Sheikh
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
-of the Software, and to permit persons to whom the Software is furnished to do so.
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software to use, copy, modify, merge, publish, distribute,
+and/or sell copies of the Software under the following conditions:
+Include this license notice in all copies or substantial portions.
 
-==========================================================
+──────────────────────────────────────────────────────────────
 📬 CONTACT
-==========================================================
+──────────────────────────────────────────────────────────────
+Author  : Tahsin Sheikh  
+GitHub  : https://github.com/Tahsin22201243  
+Email   : (Add if you wish)  
 
-Author: Tahsin Sheikh  
-GitHub: https://github.com/Tahsin22201243
-
-==========================================================
+──────────────────────────────────────────────────────────────
 🧭 FUTURE IMPROVEMENTS
-==========================================================
+──────────────────────────────────────────────────────────────
+▸ Add index of notebooks with topic summaries  
+▸ Include requirements.txt for easy setup  
+▸ Add screenshots or demo GIFs  
+▸ Create Dockerfile for reproducible environments  
 
-- Add summary/index file listing all notebooks with topics.
-- Include a requirements.txt for automatic environment setup.
-- Add example screenshots or GIFs of Jupyter notebooks in action.
-- Introduce Docker support for reproducible development.
-
-==========================================================
-END OF FILE
-==========================================================
+──────────────────────────────────────────────────────────────
+🌟 THANK YOU FOR VISITING UAP-ALL 🌟
+──────────────────────────────────────────────────────────────
